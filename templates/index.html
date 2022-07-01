@@ -1,0 +1,29 @@
+ 
+{% extends "layout.html" %}
+
+{% block y %}
+ 
+
+{% if session.name %}
+
+    <h1> Du har börjat planera ett hackaton {{ session.name }}.</h1> 
+    <br>
+    <h1> Vill du fortsätta att planera?</h1> 
+    <br>
+    <p1><a href="/guide">Fortsätt</a> </p1>
+    <br>
+    <h1>Eller vill du skapa ett nytt hackaton? </h1>
+    <br>
+    <p1><a href="/logout">Skapa nytt</a> </p1>
+   
+  
+
+{% else %}
+
+<h1>Skapa ett nytt hackaton. </h1> 
+<br>
+<p1><a href="/login">login</a></p1>
+
+{% endif %}
+
+{% endblock %}

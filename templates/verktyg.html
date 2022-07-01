@@ -1,0 +1,150 @@
+{% extends "layout.html" %}
+ 
+{% block y %}
+ 
+    <div class = "row">
+    <div class = "column left" >
+
+   <h1>Skapa en guide till ditt hackaton {{ session.name }}</h1>
+   
+
+
+    <form action = "/guide" method="POST">  
+        {{ form1.hidden_tag() }}          
+        <h2>{{form1.tema.label}} </h2>
+        <br>
+        {{form1.tema}}
+       
+        <br>
+        <br>
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form2.hidden_tag() }}          
+        <h2>{{form2.deltagare.label}} </h2>
+        <br>
+        <p1>  <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></p1>
+        <br>
+        {{form2.deltagare}}
+        
+        <br>
+        <p1>{{ Listan[3] }}</p1>
+        
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form3.hidden_tag() }}         
+        <h2>{{form3.längd.label}} </h2>
+        <p1> <a href ="https://hackaton.fi/tid" target="_blank"> Om tidsramar </a></p1>
+        <br>
+        {{form3.längd}}
+       
+        <br>
+        <p1>{{ Listan[5] }}</p1>
+        <br>
+         
+        
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form4.hidden_tag() }}         
+        <h2>{{form4.budget.label}} </h2>
+        <br>
+        <p1> <a href ="https://hackaton.fi/budget" target="_blank"> Om budget </a></p1>
+        <br>
+        {{form4.budget}}
+        
+        <br>
+        <p1>{{ Listan[7] }}</p1>
+        
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form5.hidden_tag() }}          
+        <h2>{{form5.plats.label}}  </h2>
+        <br>
+        <p1> <a href ="https://hackaton.fi/plats" target="_blank"> Om val av plats </a></p1>
+        <br>
+        {{form5.plats}}
+        
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form6.hidden_tag() }}          
+        <h2>{{form6.jury.label}}  </h2>
+        <br>
+        {{form6.jury}}
+        
+        <br>
+        <p1>{{ Listan[10] }}</p1>
+        <br>
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form7.hidden_tag() }}          
+        <h2>{{form7.juryNamn.label}}  </h2>
+        <br>
+        <p1> <a href ="https://hackaton.fi/jury" target="_blank"> Om val av jury </a></p1>
+        <br>
+        {{form7.juryNamn}}
+        
+    </form>
+    <form action = "guide" method="POST">  
+        {{ form8.hidden_tag() }}          
+        <h2>{{form8.språk.label}}  </h2>
+        <br>
+        <p1> <a href ="https://hackaton.fi/flerspråkighet" target="_blank"> Om flerspråkighet </a></p1>
+        <br>
+        {{form8.språk}}
+        
+    </form>
+
+   
+
+    <h2> Tips från coachen: </h2>
+    <br>
+    <p1> Här skriver vi in tips från coachen. </p1>
+    <br>
+    <p1>  <a href ="https://hackaton.fi/duschar" target="_blank"> Om duschar </a></p1>
+    <br>
+    
+    <p1><a href="/logout">Börja om</a></p1>
+    
+    </div>
+
+    <div class = "column right" >
+
+
+    <h2> Din guide till {{ session.name }}</h2>
+    <br>
+    <p> Tema: {{ Listan[1] }}</p>
+    <br>
+    <p> Antal deltagare: {{ Listan[2] }}</p>
+    <br>
+    <p> Tid: {{ Listan[4] }}</p>
+    <br>
+    <p> Budget: {{ Listan[6] }}</p>
+    <br>
+    <p> Plats: {{ Listan[8] }}</p>
+    <br>
+    <p> Antal jurymedlemmar: {{ Listan[9] }}</p>
+    <br>
+    <p> Jurymedlemmar: {{ Listan[11] }}</p>
+    <br>
+    <p> Antal språk: {{ Listan[12] }}</p>
+
+    <br>
+    <br>
+    <br>
+
+    <div class = "knappdiv">
+        <button id="printknapp" onclick="window.print()">Skriv ut din guide</button>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+
+    
+
+</div>
+
+</div>
+    
+ 
+{% endblock %}

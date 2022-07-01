@@ -1,0 +1,23 @@
+
+{% extends "layout.html" %}
+ 
+{% block y %}
+ 
+
+   <h1> Planera ditt hackaton här! </h1>
+   <br>
+   <br>
+   <p1>Börja med att namnge ditt hackaton.</p1>
+ 
+
+   <form action="/login" method="POST">
+
+      <input placeholder=" " autocomplete="off" type="text" name="name">
+
+      <br>
+
+      <button id="börja" type="submit">Gå vidare</button>
+
+   </form>
+ 
+{% endblock %}
