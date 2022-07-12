@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'hackatonplan'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A695BCFE683B4A909AB5DDB53C75528C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D76A22CCB394446D8BE411B87484DD4D }}
