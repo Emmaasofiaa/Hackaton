@@ -6,15 +6,15 @@ body {
 p {
     color: #405866;
     font-family: 'Work sans', sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     display: inline-block;
-    margin:  20px;
+    margin:  15px;
 }
 
 p1 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   display: inline-block;
   margin-left:  40px;
   margin-bottom: 20px;
@@ -24,7 +24,7 @@ p1 {
 p2 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
   display: inline-block;
   margin-bottom: 20px;
 }
@@ -32,7 +32,7 @@ p2 {
 h1 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
-  font-size: 2em;
+  font-size: 1,4em;
   display: inline-block;
   margin:  20px;
   font-weight: bold;
@@ -52,13 +52,13 @@ input {
   width: 200px;
   margin: 10px;
   margin-left: 40px;
-  height: 50px;
+  height: 30px;
   border: none;
   background-color: rgb(255, 255, 255);
   color: #405866;
   border-radius: 10px;
   font-family: 'Work sans',  sans-serif;
-  font-size: 1.3em;
+  font-size: 1em;
   text-align: left;
 }
 
