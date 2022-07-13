@@ -119,12 +119,11 @@ input:focus {
 
 input[type=submit] {
     background-color: #FFFFFF;
-    width: 20px;
-    border: 2px solid #F3B307;
+    width: 90px;
+    margin: 10px;
+    border: 3px solid #F3B307;
     padding: 7px 5px 7px 5px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-family: 'Work sans',  sans-serif;
     font-size: 16px;
     border-radius: 15px;
