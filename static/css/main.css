@@ -55,7 +55,7 @@ input {
   margin-left:  20px;
   height: 30px;
   border: none;
-  background-color: #F3B307;
+  background-color: #FFFFFF;
   color: #405866;
   border-radius: 10px;
   font-family: 'Work sans',  sans-serif;
@@ -119,15 +119,14 @@ input:focus {
 
 input[type=submit] {
     background-color: #FFFFFF;
-    border: 4px;
-    border-color: #F3B307;
+    border: 4px solid #405866;
     padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Work sans',  sans-serif;
     font-size: 16px;
-    border-radius: 40px;
+    border-radius: 30px;
     transition-duration: 0.4s;
   }
 
