@@ -32,7 +32,7 @@ p2 {
 h1 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
-  font-size: 1,4em;
+  font-size: 1,2em;
   display: inline-block;
   margin-left:  20px;
   font-weight: bold;
@@ -41,9 +41,9 @@ h1 {
 h2 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
-  font-size: 1.1em;
+  font-size: 1em;
   display: inline-block;
-  margin:  0px;
+  margin-left:  20px;
   font-weight: bold;
 }
 
