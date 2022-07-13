@@ -118,16 +118,15 @@ input:focus {
 
 
 input[type=submit] {
-    background-color: #405866;
-    border: none;
-    color: #F3B307;
-    padding: 15px 32px;
+    background-color: #FFFFFF;
+    border: 4px;
+    border-color: #F3B307;
+    padding: 5px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Work sans',  sans-serif;
     font-size: 16px;
-    margin-bottom: 5%;
     border-radius: 40px;
     transition-duration: 0.4s;
   }
@@ -158,9 +157,8 @@ a:visited {
 
 .right{
   width: 35%;
-  background-color: #F3B307;
+  background-color: #FEFEFE;
   border-radius: 40px;
-  border-color: #405866;
 }
 
 @media screen and (max-width: 500px) {
