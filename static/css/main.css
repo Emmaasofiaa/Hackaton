@@ -117,7 +117,7 @@ input:focus {
   }
 
 
-#mata {
+input[type=submit]
     background-color: #405866;
     border: none;
     color: #F3B307;
