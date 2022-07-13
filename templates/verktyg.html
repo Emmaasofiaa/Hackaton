@@ -21,8 +21,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form2.hidden_tag() }}          
-        <h2>{{form2.deltagare.label}} </h2>  <p1>  <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></p1>
-        <br>
+        <h2>{{form2.deltagare.label}} <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></h2>  
         {{form2.deltagare}}
         {{form2.submit}}
         
