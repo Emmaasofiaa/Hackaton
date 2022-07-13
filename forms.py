@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, StringField, RadioField, SelectField
+from wtforms import IntegerField, StringField, RadioField, SelectField, SubmitField
 from wtforms.validators import DataRequired, InputRequired
 
 #class Namn(FlaskForm):
@@ -7,6 +7,7 @@ from wtforms.validators import DataRequired, InputRequired
 
 class Tema(FlaskForm):
     tema = StringField('Börja med att välja en utmaning för ert hackaton.', validators= [DataRequired()])
+    submit = SubmitField('Mata in')
 
 class Deltagare(FlaskForm):
     deltagare = IntegerField('Hur många kommer att delta?', validators=[DataRequired()])
