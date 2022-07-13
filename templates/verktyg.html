@@ -22,6 +22,7 @@
     <form action = "guide" method="POST">  
         {{ form2.hidden_tag() }}          
         <h2>{{form2.deltagare.label}} <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></h2>  
+     <br>
         {{form2.deltagare}}
         {{form2.submit}}
         
@@ -31,8 +32,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form3.hidden_tag() }}         
-        <h2>{{form3.längd.label}} </h2>
-        <p1> <a href ="https://hackaton.fi/tid" target="_blank"> Om tidsramar </a></p1>
+        <h2>{{form3.längd.label}} <a href ="https://hackaton.fi/tid" target="_blank"> Om tidsramar </a></h2>
         <br>
         {{form3.längd}}
         {{form3.submit}}
@@ -45,9 +45,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form4.hidden_tag() }}         
-        <h2>{{form4.budget.label}} </h2>
-        <br>
-        <p1> <a href ="https://hackaton.fi/budget" target="_blank"> Om budget </a></p1>
+        <h2>{{form4.budget.label}} <a href ="https://hackaton.fi/budget" target="_blank"> Om budget </a></h2>
         <br>
         {{form4.budget}}
         {{form4.submit}}
@@ -58,9 +56,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form5.hidden_tag() }}          
-        <h2>{{form5.plats.label}}  </h2>
-        <br>
-        <p1> <a href ="https://hackaton.fi/plats" target="_blank"> Om val av plats </a></p1>
+        <h2>{{form5.plats.label}} <a href ="https://hackaton.fi/plats" target="_blank"> Om val av plats </a> </h2>
         <br>
         {{form5.plats}}
         {{form5.submit}}
@@ -79,9 +75,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form7.hidden_tag() }}          
-        <h2>{{form7.juryNamn.label}}  </h2>
-        <br>
-        <p1> <a href ="https://hackaton.fi/jury" target="_blank"> Om val av jury </a></p1>
+        <h2>{{form7.juryNamn.label}}  <a href ="https://hackaton.fi/plats" target="_blank"> Om val av plats </a></h2>
         <br>
         {{form7.juryNamn}}
         {{form7.submit}}
@@ -89,9 +83,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form8.hidden_tag() }}          
-        <h2>{{form8.språk.label}}  </h2>
-        <br>
-        <p1> <a href ="https://hackaton.fi/flerspråkighet" target="_blank"> Om flerspråkighet </a></p1>
+        <h2>{{form8.språk.label}}  <a href ="https://hackaton.fi/flerspråkighet" target="_blank"> Om flerspråkighet </a></h2>
         <br>
         {{form8.språk}}
         {{form8.submit}}
@@ -99,11 +91,6 @@
     </form>
 
    
-
-    <h2> Tips från coachen: </h2>
-    <br>
-    <p1> Här skriver vi in tips från coachen. </p1>
-    <br>
     <p1>  <a href ="https://hackaton.fi/duschar" target="_blank"> Om duschar </a></p1>
     <br>
     
