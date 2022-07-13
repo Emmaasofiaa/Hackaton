@@ -64,7 +64,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form6.hidden_tag() }}          
-        <h2>{{form6.jury.label}}  </h2>
+        <h2>{{form6.jury.label}} <a href ="https://hackaton.fi/jury" target="_blank"> Om val av jury </a></h2>
         <br>
         {{form6.jury}}
         {{form6.submit}}
@@ -75,7 +75,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form7.hidden_tag() }}          
-        <h2>{{form7.juryNamn.label}}  <a href ="https://hackaton.fi/plats" target="_blank"> Om val av plats </a></h2>
+        <h2>{{form7.juryNamn.label}}  <a href ="https://hackaton.fi/jury" target="_blank"> Om val av jury </a></h2>
         <br>
         {{form7.juryNamn}}
         {{form7.submit}}
@@ -90,7 +90,7 @@
         
     </form>
 
-   
+   <br>
     <p1>  <a href ="https://hackaton.fi/duschar" target="_blank"> Om duschar </a></p1>
     <br>
     
@@ -100,7 +100,7 @@
 
     <div class = "column right" >
 
-
+    <br>
     <p> <b>Din guide till</b> {{ session.name }}</p>
     <br>
     <p> <b>Tema: </b>{{ Listan[1] }}</p>
