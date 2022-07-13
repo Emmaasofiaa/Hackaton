@@ -26,6 +26,7 @@
         <p1>  <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></p1>
         <br>
         {{form2.deltagare}}
+        {{form2.submit}}
         
         <br>
         <p1>{{ Listan[3] }}</p1>
@@ -37,6 +38,7 @@
         <p1> <a href ="https://hackaton.fi/tid" target="_blank"> Om tidsramar </a></p1>
         <br>
         {{form3.längd}}
+        {{form3.submit}}
        
         <br>
         <p1>{{ Listan[5] }}</p1>
@@ -51,6 +53,7 @@
         <p1> <a href ="https://hackaton.fi/budget" target="_blank"> Om budget </a></p1>
         <br>
         {{form4.budget}}
+        {{form4.submit}}
         
         <br>
         <p1>{{ Listan[7] }}</p1>
@@ -63,6 +66,7 @@
         <p1> <a href ="https://hackaton.fi/plats" target="_blank"> Om val av plats </a></p1>
         <br>
         {{form5.plats}}
+        {{form5.submit}}
         
     </form>
     <form action = "guide" method="POST">  
@@ -70,6 +74,7 @@
         <h2>{{form6.jury.label}}  </h2>
         <br>
         {{form6.jury}}
+        {{form6.submit}}
         
         <br>
         <p1>{{ Listan[10] }}</p1>
@@ -82,6 +87,7 @@
         <p1> <a href ="https://hackaton.fi/jury" target="_blank"> Om val av jury </a></p1>
         <br>
         {{form7.juryNamn}}
+        {{form7.submit}}
         
     </form>
     <form action = "guide" method="POST">  
@@ -91,6 +97,7 @@
         <p1> <a href ="https://hackaton.fi/flerspråkighet" target="_blank"> Om flerspråkighet </a></p1>
         <br>
         {{form8.språk}}
+        {{form8.submit}}
         
     </form>
 
