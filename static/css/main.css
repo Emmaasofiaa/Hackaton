@@ -117,7 +117,21 @@ input:focus {
   }
 
 
-  
+#mata {
+    background-color: #405866;
+    border: none;
+    color: #F3B307;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Work sans',  sans-serif;
+    font-size: 16px;
+    margin-bottom: 5%;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+  }
+
 
 a:link {
   color: #405866;
