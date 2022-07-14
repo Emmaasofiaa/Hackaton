@@ -60,12 +60,28 @@ def guide():
         
         deltagare = int(deltagare) 
 
-        if deltagare < 4:
-            session['lista'][3] = "Vi rekommenderar att ni har flera deltagare. "
-        elif 4 <= deltagare <= 20:
-            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i .... grupper. "
+        if deltagare < 7:
+            session['lista'][3] = "Vi rekommenderar att ni har flera deltagare för att kunna ha några grupper som kommer på lösningar. "
+        elif 8 <= deltagare <= 8:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i två olika grupper bestående av fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 9 <= deltagare <= 12:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i tre olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 13 <= deltagare <= 16:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i fyra olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 17 <= deltagare <= 20:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i fem olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 21 <= deltagare <= 24:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i sex olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 25 <= deltagare <= 28:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i sju olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 29 <= deltagare <= 32:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i åtta olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 33 <= deltagare <= 36:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i nio olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
+        elif 34 <= deltagare <= 40:
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i tio olika grupper bestående av tre till fyra personer i vardera. Grupper med fyra personer har visat sig fungera mest optimalt under ett hackaton."
         else:
-            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i .... grupper. "
+            session['lista'][3] = "Vi rekommenderar att dela in era deltagare i grupper bestående av fyra personer i vardera eftersom denna gruppstorlek har visat sig fungera mest optimalt under hackaton. "
         
         session.modified = True
 
@@ -105,9 +121,9 @@ def guide():
         budget = int(budget) 
 
         if budget < 500:
-           session['lista'][7] = "Budgeten räcker enbart till material och mellanmål."
+           session['lista'][7] = "Planera ert hackaton så att det finns budgetmedel som täcker kostnader för material och mellanmål. Exempel på material är post-it lappar, pennor och övriga kontorsmaterial. Mellanmål rekommenderas för att upprätthålla en god energinivå bland deltagarna under dagen/dagarna."
         else:
-           session['lista'][7] = "Er budget kanske räcker för att ta in någon utomstående expert eller  ..."
+           session['lista'][7] = "Planera ert hackaton så att det finns budgetmedel som täcker kostnader för att ta in externa experter, material och mellanmål. Exempel på material är post-it lappar, pennor och övriga kontorsmaterial. Mellanmål rekommenderas för att upprätthålla en god energinivå bland deltagarna under dagen/dagarna. Experter kan tas in som inspiratörer och, eller jurymedlemmar."
          
         session.modified = True
     
@@ -124,7 +140,7 @@ def guide():
         jury = int(jury)
 
         if jury < 2: 
-            session['lista'][10]= "Ni behöver ha minst .. jurym medlemmar."
+            session['lista'][10]= "Vi rekommenderar att ni gärna har fler än två jurym medlemmar."
         else: 
             session['lista'][10] = "Bra!" 
 
