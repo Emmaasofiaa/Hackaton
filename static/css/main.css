@@ -103,7 +103,6 @@ input {
     font-size: 16px;
     font-family: 'Work sans',  sans-serif;
     margin-bottom: 5%;
-    margin-left:  20px;
     margin-top: 2%;
     border-radius: 40px;
     transition-duration: 0.4s;
@@ -157,14 +156,14 @@ a:visited {
 
 .left{
   width: 50%;
-  padding: 40px;
+  margin: 40px;
 }
 
 .right{
   width: 30%;
   background-color: #E0E0E0;
   border-radius: 40px;
-  padding: 40px;
+  margin: 40px;
 }
 
 @media screen and (max-width: 500px) {
