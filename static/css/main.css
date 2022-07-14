@@ -53,7 +53,8 @@ h2 {
 
 
 input {
-  width: 200px;
+  width: 250px;
+  padding: 3px:
   margin-bottom: 10px;
   height: 30px;
   border: none;
@@ -123,6 +124,7 @@ input[type=submit] {
     height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+    margin-left: 5px;
     text-align: center;
     font-family: 'Work sans',  sans-serif;
     font-size: 1em;
@@ -132,6 +134,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #FFFFFFF;
+    color: #F3B307;
     transition-duration: 0.4s;
   }
 
@@ -140,6 +143,7 @@ a:link {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
   letter-spacing: 0,5px;
+  text-decoration: none;
 
 }
 
