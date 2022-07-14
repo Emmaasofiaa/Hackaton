@@ -151,14 +151,14 @@ a:visited {
 
 .left{
   width: 60%;
-  padding: 15px;
+  padding: 25px;
 }
 
 .right{
-  width: 35%;
+  width: 40%;
   background-color: #E0E0E0;
   border-radius: 40px;
-  padding: 15px;
+  padding: 25px;
 }
 
 @media screen and (max-width: 500px) {
