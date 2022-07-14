@@ -125,14 +125,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #FFFFFFF;
-    width: 90px;
-    height: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: 'Work sans',  sans-serif;
-    font-size: 1em;
-    border-radius: 10px;
+    transition-duration: 0.4s;
   }
 
 
@@ -156,15 +149,15 @@ a:visited {
 }
 
 .left{
-  width: 60%;
-  padding: 25px;
+  width: 50%;
+  padding: 10px;
 }
 
 .right{
-  width: 40%;
+  width: 30%;
   background-color: #E0E0E0;
   border-radius: 40px;
-  padding: 25px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 500px) {
