@@ -7,6 +7,8 @@ p {
     color: #405866;
     font-family: 'Work sans', sans-serif;
     font-size: 1em;
+    line-height: 1.3;
+    letter-spacing: 2px;
     display: inline-block;
 }
 
@@ -14,6 +16,8 @@ p1 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
   font-size: 1em;
+  line-height: 1.3;
+  letter-spacing: 2px;
   display: inline-block;
 }
 
@@ -22,6 +26,8 @@ p2 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
   font-size: 1em;
+  line-height: 1.3;
+  letter-spacing: 2px;
   display: inline-block;
 }
 
