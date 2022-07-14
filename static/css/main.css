@@ -31,6 +31,15 @@ p2 {
   display: inline-block;
 }
 
+p3 {
+  color: #F3B307;
+  font-family: 'Work sans',  sans-serif;
+  font-size: 1em;
+  line-height: 1.7;
+  letter-spacing: 0,5px;
+  display: inline-block;
+}
+
 h1 {
   color: #405866;
   font-family: 'Work sans',  sans-serif;
