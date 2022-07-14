@@ -55,12 +55,11 @@ h2 {
 input {
   width: 250px;
   padding: 3px:
-  margin-bottom: 10px;
   height: 30px;
   border: none;
   background-color: #FFFFFF;
   color: #405866;
-  border-radius: 10px;
+  border-radius: 7px;
   font-family: 'Work sans',  sans-serif;
   font-size: 1em;
   text-align: left;
