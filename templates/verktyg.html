@@ -3,7 +3,7 @@
 {% block y %}
 
     <div class = "row">
-    <div class = "column left">   
+    <div class = "column left" id="notprintableArea">   
 
     <form action = "/guide" method="POST">  
         {{ form1.hidden_tag() }}          
@@ -87,9 +87,9 @@
    <br>
     <h3><a href="/logout">Börja om</a></h3>
     
-    </div>
+    </div></div>
 
-    <div class ="column right" id="right">
+    <div class ="column right" id="printableArea">
 
     <p> <b>Din guide till</b> {{ session.name }}</p>
     <br>
@@ -121,8 +121,8 @@
     <br>
     <br>
 
-    <input type="button" onclick="printDiv('printableArea')" value="print a div!" />
-     
+    <div class = "knappdiv">
+        <button id="printknapp" onclick="window.print(right)">Skriv ut din guide</button>
     </div>
   
     <br>
