@@ -11,7 +11,18 @@
     <meta charset="UTF-8">
     <title>Hackaton</title>
     <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+ 
+ <style type="text/css">
 
+    #printable { display: none; }
+
+    @media print
+    {
+        #non-printable { display: none; }
+        #printable { display: block; }
+    }
+  
+  </style>
 
     </head>
 
