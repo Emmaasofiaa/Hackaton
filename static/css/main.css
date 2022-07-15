@@ -162,12 +162,12 @@ a:visited {
 }
 
 .left{
-  max-width: 600px;
+  width: 600px;
   padding: 2%;
 }
 
 .right{
-  max-width: 600px;
+  width: 600px;
   background-color: #E0E0E0;
   border-radius: 40px;
   padding: 4%;
