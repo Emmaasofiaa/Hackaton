@@ -62,7 +62,6 @@ h2 {
 
 
 input {
-  width: 250px;
   height: 30px;
   border: none;
   background-color: #FFFFFF;
@@ -123,6 +122,7 @@ input {
 
 input[type=submit] {
     background-color: #E0E0E0;
+    width: 15px;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
