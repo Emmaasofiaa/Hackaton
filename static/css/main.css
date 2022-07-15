@@ -162,20 +162,20 @@ a:visited {
 
 .left{
   width: 45%;
-  padding: 1%;
+  padding: 2%;
 }
 
 .right{
   width: 45%;
   background-color: #E0E0E0;
   border-radius: 40px;
-  padding: 1%;
+  padding: 2%;
 }
 
     
    }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   .column 
 }
 
