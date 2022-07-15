@@ -99,15 +99,15 @@ def guide():
         elif 13 <= längd <= 18: 
              session['lista'][5] = "Vi rekommenderar att ni använder tre dagar."
         elif 19 <= längd <= 24:
-             session['lista'][5] = "Vi rekommenderar att ni använder fyra dagar"
+             session['lista'][5] = "Vi rekommenderar att ni använder fyra dagar."
         elif 25 <= längd <= 30:
-             session['lista'][5] = "Vi rekommenderar att ni använder fem dagar"
+             session['lista'][5] = "Vi rekommenderar att ni använder fem dagar."
         elif 31 <= längd <= 36:
-             session['lista'][5] = "Vi rekommenderar att ni använder sex dagar"
+             session['lista'][5] = "Vi rekommenderar att ni använder sex dagar."
         elif 37 <= längd <= 42:
-            session['lista'][5] = "Vi rekommenderar att ni använder sju dagar"
+            session['lista'][5] = "Vi rekommenderar att ni använder sju dagar."
         elif 43 <= längd <= 48:
-            session['lista'][5] = "Vi rekommenderar att ni använder åtta dagar"
+            session['lista'][5] = "Vi rekommenderar att ni använder åtta dagar."
         else:
             session['lista'][5] = "Mera än 48 h blir för långt."
         
