@@ -73,6 +73,13 @@ input {
   letter-spacing: 0,5px;
 }
 
+.button-center {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
 #printknapp {
     background-color: #405866;
@@ -81,8 +88,6 @@ input {
     height: 50px;
     padding: 15px 32px 15px 32px;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-family: 'Work sans',  sans-serif;
     font-size: 16px;
     border-radius: 10px;
@@ -163,17 +168,15 @@ a:visited {
 }
 
 .left{
-  width: 40%;
-  margin: 30px;
+  width: 50%;
   padding: 30px;
 }
 
 .right{
-  width: 40%;
+  width: 50%;
   background-color: #E0E0E0;
   border-radius: 40px;
-  margin: 30px;
-   padding: 30px;
+  padding: 30px;
 }
 
 @media screen and (max-width: 500px) {
