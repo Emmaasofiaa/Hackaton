@@ -168,26 +168,26 @@ a:visited {
 }
 
 .left{
-  width: 60%;
+  width: 55%;
   padding: 30px;
 }
 
 .right{
-  width: 30%;
+  width: 35%;
   background-color: #E0E0E0;
   border-radius: 40px;
   padding: 30px;
+  margin-top: 50%;
 }
 
     
    }
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .row 
+@media only screen and (max-width: 700px) {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
   .row 
 }
 
