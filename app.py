@@ -88,7 +88,7 @@ def guide():
 
     if form3.validate():
         längd = request.form['längd']
-        session['lista'][4] = längd + 'h' 
+        session['lista'][4] = längd + ' h' 
         
         längd = int(längd) 
 
@@ -116,7 +116,7 @@ def guide():
 
     if form4.validate():
         budget = request.form['budget']
-        session['lista'][6] = budget + "€"
+        session['lista'][6] = budget + " €"
 
         budget = int(budget) 
 
