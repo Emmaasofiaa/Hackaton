@@ -1,9 +1,9 @@
 {% extends "layout.html" %}
  
 {% block y %}
- 
+
     <div class = "row">
-    <div class = "column left" >   
+    <div class = "column left" id="non-printable">   
 
     <form action = "/guide" method="POST">  
         {{ form1.hidden_tag() }}          
@@ -89,7 +89,7 @@
     
     </div>
 
-    <div class = "column right" >
+    <div class = "column right" id="printable">>
 
     <p> <b>Din guide till</b> {{ session.name }}</p>
     <br>
