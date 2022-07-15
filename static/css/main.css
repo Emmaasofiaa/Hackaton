@@ -161,12 +161,12 @@ a:visited {
 }
 
 .left{
-  width: 45%;
+  max-width: 600px;
   padding: 2%;
 }
 
 .right{
-  width: 45%;
+  max-width: 600px;
   background-color: #E0E0E0;
   border-radius: 40px;
   padding: 2%;
@@ -176,22 +176,22 @@ a:visited {
    }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .column 
+  .row 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 700px) {
-  .column  
+  .row  
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .column  
+  .row  
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .column  
+  .row  
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
