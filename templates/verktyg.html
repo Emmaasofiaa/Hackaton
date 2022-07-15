@@ -89,7 +89,7 @@
     
     </div>
 
-    <div class = "column right">
+    <div class = "column right" id="right">
 
     <p> <b>Din guide till</b> {{ session.name }}</p>
     <br>
@@ -122,7 +122,7 @@
     <br>
 
     <div class = "knappdiv">
-        <button id="printknapp" onclick="window.print()">Skriv ut din guide</button>
+        <button id="printknapp" onclick="printDiv(right)">Skriv ut din guide</button>
     </div>
   
     <br>
