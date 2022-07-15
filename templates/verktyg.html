@@ -18,7 +18,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form2.hidden_tag() }}          
-        <h2>{{form2.deltagare.label}} <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></h2>  
+        <h2>{{form2.deltagare.label}} <br> <a href ="https://hackaton.fi/deltagare" target="_blank">Om gruppindelning </a></h2>  
      <br>
         {{form2.deltagare}}
         {{form2.submit}}
@@ -29,7 +29,7 @@
     </form>
     <form action = "guide" method="POST">  
         {{ form3.hidden_tag() }}         
-        <h2>{{form3.längd.label}} <a href ="https://hackaton.fi/tid" target="_blank"> Om tidsramar </a></h2>
+        <h2>{{form3.längd.label}} <br> <a href ="https://hackaton.fi/tid" target="_blank"> Om tidsramar </a></h2>
         <br>
         {{form3.längd}}
         {{form3.submit}}
