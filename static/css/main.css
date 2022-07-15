@@ -179,7 +179,7 @@ a:visited {
   padding: 30px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .column{
     width: 100%
   }
