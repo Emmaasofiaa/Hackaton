@@ -123,8 +123,7 @@ input {
 
 input[type=submit] {
     background-color: #E0E0E0;
-    width: 85px;
-    height: 30px;
+    padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 5px;
